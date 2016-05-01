@@ -1,0 +1,225 @@
+html, body, div, span, applet, object, iframe,h1, h2, h3, h4, h5, h6, p, blockquote, pre,a, abbr, acronym, address, big, cite, code,del, dfn, em, font, img, ins, kbd, q, s, samp,small, strike, strong, sub, sup, tt, var,b, u, i, center, dl, dt, dd, ol, nav, li,fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    letter-spacing:0;
+}
+
+@font-face {
+    font-family: Verdana;
+    src: url(../fonts/verdana.ttf);
+}
+
+body {
+    margin: 0;
+    height: 100%;
+    padding: 0;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    background: #fff;
+}
+
+a{
+    color: #000;
+    text-decoration: underline;
+}
+
+a:hover{
+    text-decoration: none;
+}
+
+
+.clr{
+    clear: both;
+}
+
+.mid-warp{
+    width: 1280px;
+    height: 100%;
+    margin: 10px auto 0;
+    border-top:1px solid #D1D1D1;
+}
+
+.left-block-filter{
+    width: 20%;
+    float: left;
+    border-right:1px solid #D1D1D1;
+}
+
+.left-block-filter .title-filtr{
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 48px;
+    padding: 0 0 0 15px;
+    display: block;
+    border-bottom: 1px solid #D1D1D1;
+}
+
+.content-filtr{
+    padding: 0 0 0 15px;
+}
+
+.content-filtr a{
+    color:#67b7f4;
+    font-size: 12px;
+    line-height: 60px;
+}
+.content-filtr .select-form-filter{
+    margin-bottom: 10px;
+}
+
+.select-form-filter {
+    width: 200px;
+    height: 34px;
+    overflow: hidden;
+    background: #F0EFF2 url(../img/arrow.gif) no-repeat right;
+}
+
+.select-form-filter select{
+    background: transparent;
+    width: 218px;
+    padding: 5px;
+    font-size: 14px;
+    border: none;
+    height: 34px;
+}
+
+.select-form-filter select:focus {
+    outline: none;
+}
+
+.select-form-filter select option{
+    background: #F0EFF2;
+    padding: 5px;
+    fint-size: 14px;
+}
+.content-filtr .label{
+    font-size: 14px;
+    display: block;
+    margin: 0 0 5px 0;
+}
+
+.content-filtr .tex-form{
+    font-size: 14px;
+    display: block;
+    margin: 1px 10px 0 0px;
+    float: left;
+}
+
+.content-filtr .formCast{
+    width: 62px;
+    border: none;
+    margin: 0 10px 10px 0;
+    background: #F0EFF2;
+    padding: 3px 0 4px 7px;
+    float: left;
+}
+
+.content-filtr .name-tex-filter{
+    width: 190px;
+    border: none;
+    margin: 5px 0 0px 0;
+    background: #F0EFF2;
+    padding: 7px 0 7px 7px;
+    float: left;
+}
+
+/* Ширина слайдера */
+#slider {
+    width: 200px;
+    margin-bottom: 20px;
+}
+
+/* Контейнер слайдера */
+.ui-slider {
+    position: relative;
+}
+
+/* Ползунок */
+.ui-slider .ui-slider-handle {
+    position: absolute;
+    z-index: 2;
+    width: 17px;   /* Задаем нужную ширину */
+    height: 17px;  /* и высоту */
+    background: url(../img/slider.png) no-repeat; /* картинка изображающая ползунок. Или можно залить цветом, задать бордюр и скругления */
+    cursor: pointer
+}
+
+.ui-slider .ui-slider-range {
+    position: absolute;
+    z-index: 1;
+    font-size: .7em;
+    display: block;
+    border: 0;
+    overflow: hidden;
+
+}
+
+/* горизонтальный слайдер (сама полоса по которой бегает ползунок) */
+
+.ui-slider-horizontal {
+    height: 5px; /* задаем высоту согласно дизайна */
+}
+
+/* позиционируем ползунки */
+.ui-slider-horizontal .ui-slider-handle {
+    top: -6px;
+    margin-left: -6px;
+}
+.ui-slider-horizontal .ui-slider-range {
+    top: 0;
+    height: 100%;
+}
+.ui-slider-horizontal .ui-slider-range-min {
+    left: 0;
+}
+.ui-slider-horizontal .ui-slider-range-max {
+    right: 0;
+}
+
+/* оформление полосы по которой ходит ползунок */
+.ui-widget-content {
+    border: 1px solid #D4D4D4;
+    background: #fff;
+
+}
+
+/* оформление активного участка (между двумя ползунками) */
+.ui-widget-header {
+    background: #1072c0;
+}
+
+/* скругление для полосы слайдера */
+.ui-corner-all {
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    border-radius: 4px;
+}
+
+.right-block-content{
+    width: 75%;
+    float: left;
+    height: 100%;
+    border-left:1px solid #D1D1D1;
+    margin-left: -1px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

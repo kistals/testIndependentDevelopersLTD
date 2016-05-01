@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <!-- Favicon -->
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF8" />
+    <meta name="viewport" content="width=device-width; initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<div class="mid-warp">
+    <div class="left-block-filter">
+        <div class="title-filtr">Фильтр</div>
+        <div class="content-filtr">
+            <a href="#">Сравниваются 0 товаров</a>
+
+                <form action="#">
+                    <span class="label">Цена</span>
+                    <div class="select-form-filter">
+                        <select>
+                            <option>Интернет-цена</option>
+                            <option>Цена в магазине</option>
+                        </select>
+                    </div>
+                    <div class="clr"></div>
+                    <span class="tex-form">от</span><input type="text" class="formCast" id="minCost" value="1700"><span class="tex-form"> до </span>
+                    <input type="text" class="formCast" id="maxCost" value="61300"/><div class="clr"></div>
+                    <div id="slider"></div>
+                    <div class="clr" style=" border-bottom: 1px solid #D1D1D1; width: 200px; margin-bottom: 20px;"></div>
+                    <label class="label">Магазины</label>
+                    <div class="select-form-filter">
+                        <select>
+                            <option>Все магазины</option>
+                            <option>М.ВИДЕО</option>
+                            <option>Media Markt</option>
+                            <option>Эльдорадо</option>
+                        </select>
+                    </div>
+                    <div class="clr"></div>
+                    <span class="label">Название</span>
+                    <input value="" class="name-tex-filter" type="text">
+                </form>
+        </div>
+    </div>
+    <div class="right-block-content">
+        Контент
+    </div>
+
+
+
+</div>
+<script type="text/javascript" src="js/jquery-1.6.1.min.js" ></script>
+<script type="text/javascript" src="js/jquery.ui-slider.js"></script>
+<script type="text/javascript" src="js/jquery.index.js"></script>
+</body>
+</html>
